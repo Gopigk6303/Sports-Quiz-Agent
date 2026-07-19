@@ -1,0 +1,18 @@
+[
+  {
+    "sport": "Cricket",
+    "fact": "The first official Test match was played in 1877 between Australia and England at the Melbourne Cricket Ground. Australia won by 45 runs."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "The Thomas Cup is the premier men's international badminton team championship. India won its first title in 2022 by beating Indonesia 3-0."
+  },
+  {
+    "sport": "Football",
+    "fact": "The FIFA World Cup was first held in 1930. Uruguay hosted and won the tournament, defeating Argentina 4-2 in the final."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "The Grand Slam tournaments are the Australian Open, French Open, Wimbledon, and the US Open."
+  }
+]

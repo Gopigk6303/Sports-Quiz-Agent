@@ -1,0 +1,22 @@
+[
+  {
+    "sport": "Cricket",
+    "fact": "The first official cricket Test match was played in 1877 between Australia and England at the Melbourne Cricket Ground. Australia won by 45 runs."
+  },
+  {
+    "sport": "Badminton",
+    "fact": "The Thomas Cup, established in 1948, is the premier international men's team badminton championship. India won its first-ever Thomas Cup title in 2022 by defeating Indonesia."
+  },
+  {
+    "sport": "Football",
+    "fact": "The FIFA World Cup was first held in 1930. Uruguay hosted and won the tournament, defeating Argentina 4-2 in the final match in Montevideo."
+  },
+  {
+    "sport": "Tennis",
+    "fact": "Rafael Nadal has won the French Open a record 14 times, making him the most successful male player in the tournament's history."
+  },
+  {
+    "sport": "Basketball",
+    "fact": "The NBA was founded in 1946 as the Basketball Association of America before merging with the National Basketball League in 1949."
+  }
+]
