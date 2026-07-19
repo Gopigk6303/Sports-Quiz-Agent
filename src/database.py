@@ -1,14 +1,27 @@
 import os
 import json
+from pathlib import Path
 import chromadb
 from chromadb.utils import embedding_functions
 
 
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+CHROMA_DB_PATH = PROJECT_ROOT / "chroma_db"
+DEFAULT_FACTS_PATH = PROJECT_ROOT / "data" / "sports_facts.json"
+
+
 def get_chroma_client():
-    return chromadb.PersistentClient(path="./chroma_db")
+    return chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
 
 
-def setup_and_populate_db(json_file_path="./data/sports_facts.json"):
+def setup_and_populate_db(json_file_path=None):
+    if json_file_path is None:
+        json_file_path = DEFAULT_FACTS_PATH
+    else:
+        json_file_path = Path(json_file_path)
+        if not json_file_path.is_absolute():
+            json_file_path = PROJECT_ROOT / json_file_path
+
     client = get_chroma_client()
     embedding_fn = embedding_functions.DefaultEmbeddingFunction()
 
